@@ -8,6 +8,11 @@ import './Contact.css'
 import logo from './assets/logo.png'
 import face from './assets/face.png'
 import facebook from './assets/facebook.svg'
+import portfolio_website from './assets/portfolio_website.png'
+import resume_generator from './assets/reusme_generator.png'
+import mini_website from './assets/mini_website.png'
+import student_portal from './assets/student_portal.png'
+import pis_system from './assets/pis_system.png'
 import Spline from '@splinetool/react-spline';
 import emailjs from '@emailjs/browser';
 
@@ -127,7 +132,7 @@ function App() {
                 
                 <div className="projects-grid">
                   <div className="project-card">
-                    <img src="src\assets\portfolio_website.png" alt="Project 1" className="project-image" />
+                    <img src= {portfolio_website} alt="Project 1" className="project-image" />
                     <div className="project-info">
                       <h3 className="project-title">Portfolio Website</h3>
                       <p className="project-description">A personal portfolio website built with React and Next.js.</p>
@@ -144,7 +149,7 @@ function App() {
                   </div>
                   
                   <div className="project-card">
-                    <img src="src\assets\reusme_generator.png" alt="Project 2" className="project-image" />
+                    <img src= {resume_generator} alt="Project 2" className="project-image" />
                     <div className="project-info">
                       <h3 className="project-title">Resume Generator</h3>
                       <p className="project-description">A front-end and back-end resume generator web application with easy fill-up forms.</p>
@@ -161,7 +166,7 @@ function App() {
                   </div>
 
                   <div className="project-card">
-                    <img src="src\assets\mini_website.png" alt="Project 3" className="project-image" />
+                    <img src= {mini_website} alt="Project 3" className="project-image" />
                     <div className="project-info">
                       <h3 className="project-title">Mini Webpage</h3>
                       <p className="project-description">A mini website that tackles page navigation. </p>
@@ -178,7 +183,7 @@ function App() {
                   </div>
 
                   <div className="project-card">
-                    <img src="src\assets\student_portal.png" alt="Project 4" className="project-image" />
+                    <img src= {student_portal} alt="Project 4" className="project-image" />
                     <div className="project-info">
                       <h3 className="project-title">Student Tracker</h3>
                       <p className="project-description">A personalized student tracker that can be used to view your subjects and interact with your instructors or professors. </p>
@@ -193,7 +198,7 @@ function App() {
                   </div>
 
                   <div className="project-card">
-                    <img src="src\assets\pis_system.png" alt="Project 4" className="project-image" />
+                    <img src= {pis_system} alt="Project 5" className="project-image" />
                     <div className="project-info">
                       <h3 className="project-title">Property Inventory System</h3>
                       <p className="project-description">A digitilized logbook for your items and belongings. </p>
