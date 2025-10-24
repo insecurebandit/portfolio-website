@@ -260,11 +260,11 @@ function App() {
                   
                   <form ref={form} onSubmit={sendEmail} className="contact-form">
                     <div className="form-group">
-                      <label htmlFor="user_name" className="form-label">Name</label>
+                      <label htmlFor="from_name" className="form-label">Name</label>
                       <input
                         type="text"
-                        id="user_name"
-                        name="user_name"
+                        id="from_name"
+                        name="from_name"
                         className="form-input"
                         placeholder="Your name"
                         required
@@ -272,11 +272,11 @@ function App() {
                     </div>
                     
                     <div className="form-group">
-                      <label htmlFor="user_email" className="form-label">Email</label>
+                      <label htmlFor="from_email" className="form-label">Email</label>
                       <input
                         type="email"
-                        id="user_email"
-                        name="user_email"
+                        id="from_email"
+                        name="from_email"
                         className="form-input"
                         placeholder="Your email"
                         required
